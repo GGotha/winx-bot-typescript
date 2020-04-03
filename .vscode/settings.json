@@ -1,0 +1,9 @@
+{
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"]
+}

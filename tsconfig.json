@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/typescript"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
